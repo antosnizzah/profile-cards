@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+;
+}
+.profileCard {
+  width: 250px;
+  border-radius: 10px;
+  border-color: rgb(76, 126, 115);
+  background-color: #fff;
+  border-style: solid;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(231, 5, 5, 0.1);
+  text-align: center;
+  margin: 0 auto;
+}
+.profileCard:hover {
+  transform: translateY(-10px);
+  transform: rotate(-360deg);
+  
+  transition: transform 0.25s;
+
+
+}
+.header {
+  background-color: #00bfa5;
+  padding: 50px;
+  height: 20px;
+  
+}
+.picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: -50px;
+}
+h2,p{
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: rgb(27, 191, 212);
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
